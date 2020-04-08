@@ -74,6 +74,7 @@ main {
   font-size: 2.5em;
   font-weight: 700;
   font-family: 'med';
+  max-width: 500px;
 }
 
 .hero p {
@@ -116,7 +117,7 @@ figure img {
 
 
 
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 920px) {
    header {
      display: flex;
      justify-content: space-between;
