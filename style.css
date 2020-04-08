@@ -98,7 +98,7 @@ main {
 }
 
 .hero a {
-  background: #333;
+  background: #000;
   padding: 1em 3em;
   border-radius: 50px;
   color: white;
@@ -137,8 +137,13 @@ footer a{
 }
 
 .social-media img{
-  padding-right: 0em;
 }
+
+.social-media a{
+  padding: 0em;
+  background: none;
+}
+
 
 @media screen and (min-width: 920px) {
    header {
@@ -191,9 +196,9 @@ footer a{
      margin: 0 0 3em 0;
    }
 
-   .hero a {
+   /* .hero a {
      background: #000;
-   }
+   } */
    .figure img{
      margin: 3em auto 0;
      width: 300px;
