@@ -56,7 +56,7 @@ nav ul li {
 
 nav ul li a {
   font-size: 1.25em;
-  color: green;
+  color: black;
   font-weight: 300;
   text-decoration: none;
 
@@ -132,7 +132,13 @@ footer a{
     text-decoration: none;
 }
 
+.social-media{
+  padding: 0;
+}
 
+.social-media img{
+  padding-right: 0em;
+}
 
 @media screen and (min-width: 920px) {
    header {
@@ -192,6 +198,10 @@ footer a{
      margin: 3em auto 0;
      width: 300px;
      margin: 0;
+   }
+
+   .social-media{
+     align-items: center;
    }
 
 
