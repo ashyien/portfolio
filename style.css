@@ -1,6 +1,18 @@
 @font-face {
-font-family: "Apercu";
-src: url("fonts/bold.otf");
+font-family: "reg";
+src: url("fonts/regular.otf");
+font-weight: bold;
+}
+
+@font-face {
+font-family: "med";
+src: url("fonts/medium.otf");
+font-weight: bold;
+}
+
+@font-face {
+font-family: "light";
+src: url("fonts/light.otf");
 font-weight: bold;
 }
 
@@ -14,8 +26,8 @@ font-weight: bold;
     max-width: 1005px;
     margin: 0 auto;
     padding: 2em 1em;
-
 }
+
 header {
   text-align: center;
 }
@@ -25,8 +37,8 @@ header {
 }
 
 nav{
-  margin: 2em auto 0;
-  max-width: 600px;
+  margin: 1em auto 0;
+  max-width: 500px;
 }
 
 nav ul {
@@ -38,12 +50,13 @@ nav ul {
 
 nav ul li {
   list-style: none;
+  font-family: 'reg';
 }
 
 nav ul li a {
   font-size: 1.25em;
   color: green;
-  font-weight: 700;
+  font-weight: 300;
   text-decoration: none;
 }
 
@@ -60,6 +73,7 @@ main {
 .hero h1{
   font-size: 2.5em;
   font-weight: 700;
+  font-family: 'med';
 }
 
 .hero p {
@@ -68,6 +82,7 @@ main {
   max-width: 500px;
   line-height: 1.8em;
   margin: 3em auto;
+  font-family: 'reg';
 }
 
 .hero p: before{
@@ -120,20 +135,19 @@ figure img {
 
    nav ul li {
      list-style: none;
-     padding: 0.5em 2em;
+     padding: 1em;
    }
 
    nav ul li a{
-     font-size: 1.375em;
+     font-size: 1.2em;
      color: black;
      font-weight: 700;
      text-decoration: none;
    }
 
-   .highlight{
-     border: 3px solid #000;
-     border-radius: 50px;
-   }
+   /* .highlight{
+     border: 1px solid #000;
+   } */
 
    main{
      flex-flow: row;
@@ -154,7 +168,7 @@ figure img {
    }
 
    .hero a {
-     background: #AE79C4;
+     background: #000;
    }
    .figure img{
      width: 300px;
