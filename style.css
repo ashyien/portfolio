@@ -82,7 +82,7 @@ figure{
 
 figure img {
   margin: 3em auto 0;
-  width: 100px;
+  width: 300px;
 }
 
 @media screen and (min-width: 820px) {
@@ -141,7 +141,7 @@ figure img {
      background: #AE79C4;
    }
    .figure img{
-     width: 100px;
+     width: 300px;
      margin: 0;
    }
 
