@@ -37,8 +37,8 @@ header {
 }
 
 nav{
-  margin: 1em auto 0;
-  max-width: 500px;
+    margin: 1em auto 0;
+    max-width: 500px;
 }
 
 nav ul {
@@ -46,6 +46,7 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: space-between;
+
 }
 
 nav ul li {
@@ -58,6 +59,7 @@ nav ul li a {
   color: green;
   font-weight: 300;
   text-decoration: none;
+
 }
 
 main {
@@ -92,6 +94,7 @@ main {
   width: 120px;
   border: 2px solid #000;
   margin: 1em auto;
+  font-family: 'reg';
 }
 
 .hero a {
@@ -102,6 +105,7 @@ main {
   text-decoration: none;
   font-size: 1.375em;
   font-weight: 700;
+  font-family: 'reg';
 }
 figure{
   text-align: center;
@@ -113,7 +117,20 @@ figure img {
   width: 300px;
 }
 
+footer{
+    font-family: 'reg';
+    text-align: left;
+    padding: 2em;
+}
 
+footer a{
+    font-size: 0.6em;
+    font-family: 'reg';
+
+    color: #000;
+    padding: 1em;
+    text-decoration: none;
+}
 
 
 
@@ -172,6 +189,7 @@ figure img {
      background: #000;
    }
    .figure img{
+     margin: 3em auto 0;
      width: 300px;
      margin: 0;
    }
