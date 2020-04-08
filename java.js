@@ -1,11 +1,11 @@
-$(window).load(function () {
-    $(".trigger_popup_fricc").click(function(){
-       $('.hover_bkgr_fricc').show();
-    });
-    $('.hover_bkgr_fricc').click(function(){
-        $('.hover_bkgr_fricc').hide();
-    });
-    $('.popupCloseButton').click(function(){
-        $('.hover_bkgr_fricc').hide();
-    });
-});
+<script>
+   $(document).ready(function() {
+       $(window).scroll(function(event) {
+           let scroll = $(this).scrollTop();
+           let opacity = 1 - (scroll / 1000);
+           if (opacity >= 0) {
+               $('.scroller').css('opacity', opacity);
+           }
+       });
+   });
+   </script>
