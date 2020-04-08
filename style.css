@@ -1,3 +1,15 @@
+@font-face {
+font-family: "Apercu";
+src: url("fonts/bold.otf");
+font-weight: bold;
+}
+
+
+
+*{
+  background: #FAF6ED;
+}
+
 .container{
     max-width: 1005px;
     margin: 0 auto;
@@ -84,6 +96,9 @@ figure img {
   margin: 3em auto 0;
   width: 300px;
 }
+
+
+
 
 
 @media screen and (min-width: 820px) {
