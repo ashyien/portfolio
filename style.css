@@ -16,6 +16,10 @@ src: url("fonts/light.otf");
 font-weight: bold;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* body{
   background: url('img/mee.png');
   overflow: hidden;
@@ -78,6 +82,16 @@ nav ul li a {
   text-decoration: none;
 
 }
+
+
+   nav ul li a:hover{
+     /* opacity: .5; */
+     color: #06b1e7;
+     transition: .5s;
+     border-bottom: 1px solid #ea462f;
+     padding-bottom: 3px;
+
+   }
 
 main {
   display: flex;
@@ -183,6 +197,7 @@ footer a{
 
 
 footer a:hover{
+  text-decoration: underline;
   opacity: .5;
   transition: .5s;
 }
@@ -283,8 +298,13 @@ video {
    }
 
    nav ul li a:hover{
-     opacity: .5;
+     /* opacity: .5; */
+     color: #06b1e7;
      transition: .5s;
+     border-bottom: 1px solid #ea462f;
+     padding-bottom: 3px;
+
+
 
    }
 
@@ -406,7 +426,11 @@ video {
     }
 
     .single-img{
-      padding: 0 20px 20px;
+      /* padding: 0 20px 20px; */
+      margin: 2em;
+      border:1px;
+      border-style: solid;
+      border-color: #000;
     }
 
     img:hover{
