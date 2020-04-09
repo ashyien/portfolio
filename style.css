@@ -224,17 +224,20 @@ figure img {
   padding-left: 0em;
 }
 
+
 footer{
+  display: flex;
+  justify-content: space-between;
     font-family: 'med';
     text-align: left;
     padding: 2em;
 }
 
 footer a{
-    font-size: 0.6em;
+    font-size: 0.58em;
     font-family: 'med';
     color: #000;
-    padding: 1em;
+    /* padding-right: 0.2em; */
     text-decoration: none;
 }
 
@@ -245,6 +248,14 @@ footer a:hover{
   border-bottom: 1px solid #ea462f;
   padding-bottom: 3px;
 }
+
+.seemore a:hover{
+  color: #06b1e7;
+  transition: .5s;
+  border-bottom: 1px solid #ea462f;
+  padding-bottom: 3px;
+}
+
 
 .social-media{
   padding-top: 1.6em;
@@ -454,9 +465,9 @@ video {
      border-bottom: 1px solid #ea462f;
      padding-bottom: 3px;
 
-
-
    }
+
+
 
    .research{
      padding-top:4em;
