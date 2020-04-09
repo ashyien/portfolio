@@ -16,6 +16,15 @@ src: url("fonts/light.otf");
 font-weight: bold;
 }
 
+
+.reg{
+  font-family: "reg";
+}
+
+.med{
+  font-family: "med";
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -403,7 +412,9 @@ video {
       transition: .9s;
     }
 
-
+    .citations{
+      padding: 3em;
+    }
 
 @media screen and (min-width: 920px) {
 
