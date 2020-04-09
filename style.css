@@ -1,19 +1,25 @@
 @font-face {
 font-family: "reg";
 src: url("fonts/regular.otf");
-font-weight: bold;
+
 }
 
 @font-face {
 font-family: "med";
 src: url("fonts/medium.otf");
-font-weight: bold;
+
 }
 
 @font-face {
 font-family: "light";
 src: url("fonts/light.otf");
-font-weight: bold;
+
+}
+
+@font-face {
+font-family: "bold";
+src: url("fonts/bold.otf");
+
 }
 
 
@@ -23,6 +29,10 @@ font-weight: bold;
 
 .med{
   font-family: "med";
+}
+
+.bold{
+    font-family: "bold";
 }
 
 html {
@@ -228,14 +238,21 @@ figure img {
 footer{
   display: flex;
   justify-content: space-between;
-    font-family: 'med';
     text-align: left;
     padding: 2em;
 }
 
 footer a{
-    font-size: 0.58em;
+    font-size: 0.6em;
     font-family: 'med';
+    color: #000;
+    /* padding-right: 0.2em; */
+    text-decoration: none;
+}
+
+footer h4{
+    font-size: 0.8em;
+    font-family: 'bold';
     color: #000;
     /* padding-right: 0.2em; */
     text-decoration: none;
@@ -418,13 +435,14 @@ video {
       border-color: #000;
     }
 
-    img:hover{
+    .wrapper img:hover{
       opacity: .5;
       transition: .9s;
     }
 
     .citations{
-      padding: 3em;
+      padding: 1em;
+      padding-bottom:13em;
     }
 
 @media screen and (min-width: 920px) {
@@ -508,8 +526,9 @@ video {
      text-align: left;
    }
    .hero h1{
-     font-size: 2em;
+     font-size: 2.1em;
      padding-top:0.8em;
+     max-width: 400px;
    }
 
    .hero h3{
@@ -525,7 +544,7 @@ video {
      font-size: 0.9em;
      padding: 0;
      margin: 0 0 0em 0;
-     max-width: 300px;
+     max-width: 400px;
    }
 
 
@@ -573,6 +592,10 @@ video {
      margin: 1em auto 0;
      width: 32em;
      padding-left: 0em;
+   }
+
+   .move-left{
+     padding-left: 10em;
    }
 
    .vl {
