@@ -57,6 +57,9 @@ header {
   padding: 1em;
 }
 
+
+
+
 nav{
     margin: 2em auto 0;
     max-width: 500px;
@@ -99,29 +102,7 @@ main {
 
 }
 
-.research {
-  display:flex;
-  flex-flow: column;
-}
 
-.research > div{
-    text-align: center;
-    background: #f3f;
-    padding: 0em;
-
-}
-
-.research > div h1{
-    text-align: center;
-    font-size:6em;
-    padding:0em;
-
-}
-
-.research p{
-  text-align: center;
-  font-size:1em;
-}
 
 .hero {
   text-align: center;
@@ -160,6 +141,53 @@ main {
 }
 
 .hero a {
+  background: #000;
+  padding: 1em 3em;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.375em;
+  font-weight: 700;
+  font-family: 'reg';
+}
+
+.hero2 {
+  text-align: center;
+}
+
+.hero2 h1{
+  font-size: 2.5em;
+  font-weight: 700;
+  font-family: 'med';
+  max-width: 500px;
+}
+
+.hero2 h3{
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: 'med';
+  max-width: 500px;
+}
+
+.hero2 p {
+  font-size: 1em;
+  font-weight: 600;
+  max-width: 500px;
+  line-height: 1.8em;
+  margin: 3em auto;
+  font-family: 'reg';
+}
+
+.hero2 p: before{
+  content: "";
+  display: block;
+  width: 120px;
+  border: 2px solid #000;
+  margin: 1em auto;
+  font-family: 'reg';
+}
+
+.hero2 a {
   background: #000;
   padding: 1em 3em;
   border-radius: 50px;
@@ -237,37 +265,127 @@ video {
 }
 
 
+    .wrapper {
+      padding-top:4em;
+    }
+
+
+    .written-area2{
+      padding-top:3em;
+      max-width: 600px;
+    }
+
+    .written-area2 h1{
+      text-align: left;
+      font-size: 2em;
+      font-family: 'med';
+
+    }
+
+    .written-area2 p{
+      text-align: left;
+      font-size: 1em;
+      font-family: 'reg';
+
+    }
+
+    .problem h1{
+      text-align: left;
+      font-size: 2em;
+      font-family: 'med';
+
+    }
+
+    .problem p{
+      text-align: left;
+      font-size: 1em;
+      font-family: 'reg';
+      padding-bottom:4em;
+
+    }
+
+    .research{
+      padding-top:3em;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .research h1{
+      text-align: left;
+      font-size: 2em;
+      font-family: 'med';
+
+    }
+
+    .research p{
+      text-align: center;
+      font-size: 1em;
+      font-family: 'reg';
+      padding-bottom: 2em;
+
+
+    }
+
+    .img-area{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    .single-box{
+
+      margin-top:1em;
+      margin: 1em;
+      border:1px;
+      border-style: solid;
+      border-color: #000;
+      text-align: left;
+      max-width: 290px;
+    }
+
+    .single-box h1{
+     font-size: 5em;
+     text-align: center;
+     padding: 0.1em;
+     margin:0;
+     max-width: 300px;
+    }
+
+    .single-box p{
+     font-size: 0.7em;
+    text-align: center;
+    max-width: 200px;
+    margin:0;
+    padding: 1.2em;
+    }
+
+
+
+
+    .single-img{
+      /* padding: 0 20px 20px; */
+      margin: 2em;
+      border:1px;
+      border-style: solid;
+      border-color: #000;
+    }
+
+    img:hover{
+      opacity: .5;
+      transition: .9s;
+    }
+
+
 
 @media screen and (min-width: 920px) {
 
-  .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
-
-.price {
-  color: grey;
-  font-size: 22px;
-}
-
-.card button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.card button:hover {
-  opacity: 0.7;
-}
 
    header {
      display: flex;
@@ -308,9 +426,23 @@ video {
 
    }
 
-   /* .highlight{
-     border: 1px solid #000;
-   } */
+   .single-box{
+
+     margin-top:1em;
+     margin: 1em;
+     border: none;
+     text-align: left;
+     max-width: 290px;
+   }
+
+   .single-box p{
+    font-size: 0.7em;
+   text-align: center;
+   max-width: 300px;
+   margin:0;
+   padding: 1.2em;
+   }
+
 
 
    main{
@@ -318,8 +450,12 @@ video {
    }
 
    .research{
+     padding-top:4em;
+     display: flex;
      flex-flow: row;
    }
+
+
 
    .hero{
      text-align: left;
@@ -345,6 +481,33 @@ video {
      max-width: 300px;
    }
 
+
+   .hero2{
+     text-align: left;
+   }
+   .hero2 h1{
+     margin:0;
+     font-size: 3.2em;
+     padding-top:1.2em;
+     font-family: 'med';
+   }
+
+   .hero2 h3{
+     font-size: 0.8em;
+     font-family:'med';
+   }
+
+
+   .hero2 p:before {
+     /* margin: 1em 0; */
+   }
+   .hero2 p {
+     font-size: 0.9em;
+     padding-top: 2em;
+     margin: 0 0 0em 0;
+     max-width: 400px;
+   }
+
    .social-media{
      align-items: center;
    }
@@ -355,85 +518,9 @@ video {
      padding-left: 0em;
    }
 
+   .vl {
+  border-left: 1px solid black;
+  height: 200px;
 }
 
-
-
-    .wrapper {
-      padding-top:4em;
-    }
-
-    .written-area h1{
-      text-align: center;
-      font-size: 2em;
-      font-family: 'med';
-
-    }
-
-    .written-area p{
-      text-align: center;
-      font-size: 1em;
-      font-family: 'reg';
-
-    }
-
-    .written-area2{
-      padding-top:3em;
-      max-width: 700px;
-    }
-
-    .written-area2 h1{
-      text-align: left;
-      font-size: 2em;
-      font-family: 'med';
-
-    }
-
-    .written-area2 p{
-      text-align: left;
-      font-size: 1em;
-      font-family: 'reg';
-
-    }
-
-    .research{
-      padding-top:3em;
-    }
-
-    .research h1{
-      text-align: left;
-      font-size: 2em;
-      font-family: 'med';
-
-    }
-
-    .research p{
-      text-align: center;
-      font-size: 1em;
-      font-family: 'reg';
-      padding:3em;
-
-    }
-
-
-
-    .img-area{
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .single-img{
-      /* padding: 0 20px 20px; */
-      margin: 2em;
-      border:1px;
-      border-style: solid;
-      border-color: #000;
-    }
-
-    img:hover{
-      opacity: .5;
-      transition: .9s;
-    }
+}
