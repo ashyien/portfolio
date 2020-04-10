@@ -157,6 +157,36 @@ nav ul li a {
      padding-bottom: 3px;
    }
 
+
+
+      .problem a{
+       text-decoration: none;
+       color: #ea462f;
+      }
+
+
+      .problem a:hover{
+        color: #06b1e7;
+        transition: .5s;
+        border-bottom: 1px solid #ea462f;
+        padding-bottom: 3px;
+      }
+
+
+
+      .contact a{
+       text-decoration: none;
+       color: #ea462f;
+      }
+
+
+      .contact a:hover{
+        color: #06b1e7;
+        transition: .5s;
+        border-bottom: 1px solid #ea462f;
+        padding-bottom: 3px;
+      }
+
 main {
   display: flex;
   flex-flow: column;
@@ -753,6 +783,7 @@ video {
 
  input[type=submit]:hover {
    background-color: red;
+   color:white;
  }
 
  .box {
@@ -760,6 +791,11 @@ video {
    background-color: #efe5d2;
    padding: 20px;
    font-family: 'med';
+ }
+
+ .problem img{
+   width:20em;
+   align-items: center;
  }
 
 
@@ -1184,5 +1220,11 @@ video {
 .contact h2{
   padding-left: 0.8em;
 }
+
+.problem img{
+  width:36em;
+
+}
+
 
 }
