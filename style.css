@@ -698,8 +698,8 @@ video {
       font-size: 3em;
     }
 
-    .contact h3{
-      padding-left: 1em;
+    .contact h2{
+      padding-left: 0.8em;
     }
 
     .right{
@@ -1181,8 +1181,8 @@ video {
   font-size: 3em;
 }
 
-.contact h3{
-  padding-left: 1em;
+.contact h2{
+  padding-left: 0.8em;
 }
 
 }
