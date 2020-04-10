@@ -1,3 +1,4 @@
+/* LOADING ALL THE FONTS */
 @font-face {
 font-family: "reg";
 src: url("fonts/regular.otf");
@@ -22,6 +23,10 @@ src: url("fonts/bold.otf");
 
 }
 
+/* FONT CLASSES */
+.light{
+    font-family: "light";
+}
 
 .reg{
   font-family: "reg";
@@ -34,6 +39,13 @@ src: url("fonts/bold.otf");
 .bold{
     font-family: "bold";
 }
+
+.black{
+    font-family: "black";
+}
+
+
+
 
 html {
   scroll-behavior: smooth;
@@ -230,7 +242,7 @@ figure{
 
 figure img {
   margin: 1em auto 0;
-  width: 35em;
+  width: 25em;
   padding-left: 0em;
 }
 
@@ -249,6 +261,7 @@ footer a{
     /* padding-right: 0.2em; */
     text-decoration: none;
 }
+
 
 footer h4{
     font-size: 0.8em;
@@ -316,7 +329,7 @@ video {
 
     .written-area2{
       padding-top:3em;
-      max-width: 540px;
+      max-width: 600px;
     }
 
     .written-area2 h1{
@@ -328,22 +341,34 @@ video {
     }
 
     .written-area2 h3{
-      font-size: 0.7em;
+      font-size: 0.8em;
       font-family:'light';
-      max-width: 410px;
+      max-width: 650px;
+      text-align: left;
+
     }
 
     .written-area2 p{
-      text-align: left;
       font-size: 1em;
+      font-weight: 600;
+      max-width: 1000px;
+      line-height: 1.8em;
       font-family: 'reg';
 
     }
 
     .problem h1{
       text-align: left;
-      font-size: 2em;
+      font-size: 2.6em;
       font-family: 'med';
+
+    }
+
+    .problem h2{
+      padding-top:0.3em;
+      text-align: left;
+      font-size: 1.5em;
+      font-family: 'reg';
 
     }
 
@@ -354,6 +379,15 @@ video {
       padding-bottom:4em;
 
     }
+
+    .problem h3{
+      font-size: 0.8em;
+      font-family:'light';
+      max-width: 350px;
+      text-align: left;
+
+    }
+
 
     .research{
       padding-top:3em;
@@ -372,14 +406,55 @@ video {
 
     }
 
+    .research .spacing{
+      padding-top:4em;
+
+    }
+
+    .research h3{
+      font-size: 0.8em;
+      font-family:'light';
+      max-width: 350px;
+      text-align: left;
+
+    }
+
     .research p{
       text-align: center;
       font-size: 1em;
       font-family: 'reg';
-      padding-bottom: 2em;
+      padding-bottom: 1em;
 
 
     }
+
+/* MOBILE - QUANTITATIVE RESEARCH PART */
+
+    .quantitative{
+      padding-top:0em;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .quantitative h1{
+      text-align: left;
+      font-size: 3em;
+      font-family: 'reg';
+
+    }
+
+    .quantitative h3{
+      font-size: 0.8em;
+      font-family:'light';
+      max-width: 400px;
+      text-align: center;
+
+    }
+
 
     .img-area{
       display: flex;
@@ -389,6 +464,8 @@ video {
       justify-content: center;
     }
 
+
+    /* MOBILE */
 
     .single-box{
 
@@ -400,14 +477,8 @@ video {
       max-width: 490px;
     }
 
-    .hl {
-
-    }
-
-
-
     .single-box h1{
-     font-size: 5em;
+     font-size: 3em;
      text-align: center;
      /* padding: 0.1em; */
      margin:0;
@@ -424,6 +495,105 @@ video {
 
 
 
+
+    .single-box2{
+
+      margin-top:1em;
+      margin: 1em;
+      border-bottom: 1px solid black;
+      text-align: left;
+      padding-bottom: 2em;
+      max-width: 490px;
+    }
+
+    .single-box2 h1{
+     font-size: 3em;
+     text-align: center;
+     /* padding: 0.1em; */
+     margin:0;
+     font-family:'reg'
+    }
+
+    .single-box2 p{
+    font-size: 1em;
+    text-align: right;
+    max-width: 320px;
+    margin:0;
+    padding: 1.2em;
+    }
+
+    .single-box2 h4{
+     font-size: 1em;
+    text-align: right;
+    max-width: 520px;
+    margin:0;
+    }
+
+    .single-box2 h3{
+      font-size: 0.8em;
+      font-family:'light';
+      max-width: 380px;
+      text-align: right;
+      padding-left: 10em;
+
+    }
+
+
+
+    /* USER EXPERIENCE ISSUES */
+    .single-box3{
+
+      margin-top:1em;
+      margin: 1em;
+      border-bottom: 1px solid black;
+      text-align: left;
+      padding-bottom: 2em;
+      max-width: 490px;
+    }
+
+    .single-box img{
+      padding-left:20em;
+    }
+
+    .single-box3 h1{
+     font-size: 3em;
+     text-align: center;
+     /* padding: 0.1em; */
+     margin:0;
+     font-family:'reg'
+    }
+
+    .single-box3 p{
+    font-size: 1em;
+    text-align: left;
+    max-width: 320px;
+    margin:0;
+    padding: 1.2em;
+    }
+
+    .single-box3 h4{
+     font-size: 1em;
+    text-align: center;
+    max-width: 520px;
+    margin:0;
+    }
+
+    .single-box3 h3{
+      font-size: 0.8em;
+      font-family:'light';
+      max-width: 480px;
+      text-align: center;
+      padding-left: 0em;
+
+    }
+
+
+
+
+    .right{
+    text-align: right;
+
+    }
 
 
 
@@ -443,6 +613,25 @@ video {
     .citations{
       padding: 1em;
       padding-bottom:13em;
+    }
+
+    .right{
+    text-align: right;
+
+    }
+
+
+    .center{
+    text-align: center;
+
+    }
+
+    .ux{
+      padding-top: 5em;
+    }
+
+    .qualitative{
+      padding-top: 3em;
     }
 
 @media screen and (min-width: 920px) {
@@ -486,33 +675,48 @@ video {
    }
 
 
-
    .research{
      padding-top:4em;
+     /* padding-bottom:4em; */
      display: flex;
      flex-flow: row;
      text-align: center;
 
    }
 
-
-
-   .single-box{
-
-     margin-top:1em;
-     margin: 1em;
-     border: none;
+   .research h3{
+     font-size: 0.8em;
+     font-family:'light';
+     max-width: 650px;
      text-align: left;
-     max-width: 590px;
+
    }
 
-   .single-box p{
-    font-size: 1em;
-   text-align: center;
-   margin:0;
-   padding: 3em;
-    max-width: 600px;
+
+   .written-area2 h3{
+     font-size: 0.8em;
+     font-family:'light';
+     max-width: 750px;
+     text-align: left;
+
    }
+
+   .quantitative{
+     padding-top:1em;
+     display: flex;
+     flex-flow: row;
+     text-align: center;
+
+   }
+
+   .quantitative h3{
+     font-size: 0.8em;
+     font-family:'light';
+     max-width: 400px;
+     text-align: right;
+
+   }
+
 
 
 
@@ -573,6 +777,30 @@ video {
      max-width: 400px;
    }
 
+   .problem h1{
+     text-align: left;
+     font-size: 2.6em;
+     font-family: 'med';
+
+   }
+
+   .problem p{
+     text-align: left;
+     font-size: 1em;
+     font-family: 'reg';
+     padding-bottom:4em;
+
+   }
+
+   .problem h3{
+     font-size: 0.8em;
+     font-family:'light';
+     max-width: 380px;
+     text-align: left;
+
+   }
+
+
 
    .hero2 p:before {
      /* margin: 1em 0; */
@@ -588,6 +816,13 @@ video {
      align-items: center;
    }
 
+   .social-media a:hover{
+     color: #06b1e7;
+     transition: .5s;
+     border-bottom: 1px solid #ea462f;
+     padding-bottom: 3px;
+   }
+
    figure img {
      margin: 1em auto 0;
      width: 32em;
@@ -601,7 +836,157 @@ video {
    .vl {
   border-left: 1px solid black;
   height: 300px;
+
+
 }
+
+
+
+
+.spacing{
+  padding-top:2em;
+}
+
+   .single-box{
+
+     margin-top:1em;
+     margin: 1em;
+     border-bottom: 1px solid black;
+     text-align: left;
+     padding-bottom: 2em;
+     max-width: 490px;
+   }
+
+   .single-box h1{
+    font-size: 3em;
+    text-align: center;
+    /* padding: 0.1em; */
+    margin:0;
+    font-family:'reg'
+   }
+
+   .single-box p{
+    font-size: 1em;
+   text-align: center;
+   max-width: 320px;
+   margin:0;
+   padding: 1.2em;
+   }
+
+   .single-box h3{
+     font-size: 0.8em;
+     font-family:'light';
+     max-width: 280px;
+     text-align: center;
+
+   }
+
+
+
+/* QUALITATIVE - DESKTOP */
+
+   .single-box2{
+
+     margin-top:1em;
+     margin: 1em;
+     border-bottom: 1px solid black;
+     text-align: left;
+     padding-bottom: 2em;
+     max-width: 490px;
+   }
+
+   .single-box2 h1{
+    font-size: 3em;
+    text-align: center;
+    /* padding: 0.1em; */
+    margin:0;
+    font-family:'reg'
+   }
+
+   .single-box2 p{
+    font-size: 1em;
+   text-align: right;
+   max-width: 320px;
+   margin:0;
+   padding: 1.2em;
+   }
+
+
+   .single-box2 h3{
+     font-size: 0.8em;
+     font-family:'light';
+     /* max-width: 280px; */
+     text-align: right;
+     padding-left: 2em;
+
+   }
+
+   .single-box2 h4{
+    font-size: 1em;
+   text-align: right;
+   max-width: 520px;
+   margin:0;
+   }
+
+
+   .single-box3{
+     border-bottom: 1px solid #efe5d2;
+     margin-top:1em;
+     margin: 1em;
+     text-align: left;
+     padding-bottom: 2em;
+     max-width: 590px;
+   }
+
+   .single-box3 h1{
+    font-size: 3em;
+    text-align: center;
+    /* padding: 0.1em; */
+    margin:0;
+    font-family:'reg'
+   }
+
+   .single-box3 p{
+    font-size: 1em;
+   text-align: left;
+   max-width: 590px;
+   margin:0;
+   padding: 1.2em;
+   }
+
+
+   .single-box3 h3{
+     font-size: 0.8em;
+     font-family:'light';
+     /* max-width: 280px; */
+     text-align: left;
+     padding-left: 0em;
+
+   }
+
+   .single-box3 h4{
+    font-size: 1em;
+   text-align: left;
+   max-width: 520px;
+   margin:0;
+   }
+
+   .single-box3 img{
+     border-bottom: 1px solid #efe5d2;
+   }
+
+   .right{
+   text-align: right;
+
+   }
+
+   .ux{
+     padding-top: 5em;
+   }
+
+   .qualitative{
+     padding-top: 3em;
+   }
 
 
 }
