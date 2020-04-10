@@ -129,6 +129,34 @@ nav ul li a {
 
    }
 
+
+   .hero a{
+    text-decoration: none;
+    color: #ea462f;
+   }
+
+
+   .hero a:hover{
+     color: #06b1e7;
+     transition: .5s;
+     border-bottom: 1px solid #ea462f;
+     padding-bottom: 3px;
+   }
+
+
+   .resume a{
+    text-decoration: none;
+    color: #ea462f;
+   }
+
+
+   .resume a:hover{
+     color: #06b1e7;
+     transition: .5s;
+     border-bottom: 1px solid #ea462f;
+     padding-bottom: 3px;
+   }
+
 main {
   display: flex;
   flex-flow: column;
@@ -589,6 +617,52 @@ video {
 
 
 
+        /* ROLES*/
+        .single-box4{
+
+          margin-top:1em;
+          margin: 1em;
+          border-bottom: 1px solid black;
+          text-align: left;
+          align-items: left;
+          padding-bottom: 2em;
+          max-width: 490px;
+        }
+
+        .single-box4 h1{
+         font-size: 3em;
+         text-align: left;
+         /* padding: 0.1em; */
+         margin:0;
+         font-family:'reg'
+        }
+
+        .single-box4 p{
+        font-size: 1em;
+        text-align: left;
+        max-width: 320px;
+        margin:0;
+        padding: 1.2em;
+        }
+
+        .single-box4 h4{
+         font-size: 1em;
+        text-align: left;
+        max-width: 520px;
+        margin:0;
+        }
+
+        .single-box4 h3{
+          font-size: 0.8em;
+          font-family:'light';
+          max-width: 480px;
+          text-align: left;
+          padding-left: 0em;
+
+        }
+
+
+
 
     .right{
     text-align: right;
@@ -632,6 +706,10 @@ video {
 
     .qualitative{
       padding-top: 3em;
+    }
+
+    hr{
+       display: none;
     }
 
 @media screen and (min-width: 920px) {
@@ -709,6 +787,14 @@ video {
 
    }
 
+   .team{
+     padding-top:1em;
+     display: flex;
+     flex-flow: row;
+     text-align: left;
+
+   }
+
    .quantitative h3{
      font-size: 0.8em;
      font-family:'light';
@@ -716,7 +802,6 @@ video {
      text-align: right;
 
    }
-
 
 
 
@@ -988,5 +1073,20 @@ video {
      padding-top: 3em;
    }
 
+   hr{
+      border: 1px solid #000;
+   }
+   .resume a{
+    text-decoration: none;
+    color: #ea462f;
+   }
+
+
+   .resume a:hover{
+     color: #06b1e7;
+     transition: .5s;
+     border-bottom: 1px solid #ea462f;
+     padding-bottom: 3px;
+   }
 
 }
