@@ -689,6 +689,19 @@ video {
       padding-bottom:13em;
     }
 
+    .contact{
+      padding: 3em;
+    }
+
+    .contact h1{
+      padding-left: 0.3em;
+      font-size: 3em;
+    }
+
+    .contact h3{
+      padding-left: 1em;
+    }
+
     .right{
     text-align: right;
 
@@ -711,6 +724,44 @@ video {
     hr{
        display: none;
     }
+
+
+  input[type=text], select, textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #000;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+   font-family: 'reg';
+ }
+
+ input[type=submit] {
+   background-color: #efe5d2;
+
+   color: black;
+   padding: 2px 7px;
+   border: 1px solid #000;
+   border-radius: 4px;
+   box-sizing: border-box;
+   border-radius: 4px;
+   cursor: pointer;
+   /* font-family: 'reg'; */
+ }
+
+ input[type=submit]:hover {
+   background-color: red;
+ }
+
+ .box {
+   border-radius: 5px;
+   background-color: #efe5d2;
+   padding: 20px;
+   font-family: 'med';
+ }
+
 
 @media screen and (min-width: 920px) {
 
@@ -1088,5 +1139,50 @@ video {
      border-bottom: 1px solid #ea462f;
      padding-bottom: 3px;
    }
+
+   input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'reg';
+   }
+
+   input[type=submit] {
+    background-color: #efe5d2;
+
+    color: black;
+    padding: 2px 7px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+    /* font-family: 'reg'; */
+   }
+
+   input[type=submit]:hover {
+    background-color: red;
+   }
+
+   .box {
+    border-radius: 5px;
+    background-color: #efe5d2;
+    padding: 20px;
+    font-family: 'med';
+   }
+
+.contact h1{
+  padding-left: 0.3em;
+  font-size: 3em;
+}
+
+.contact h3{
+  padding-left: 1em;
+}
 
 }
